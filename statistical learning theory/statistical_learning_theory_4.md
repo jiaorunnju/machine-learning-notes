@@ -21,7 +21,7 @@ $$
 
 we can relate expected risk to empirical risk. Note that the second term above is non-positive because $\hat{h}$ is the empirical risk minimizer.
 
-The first term is not a sum of i.i.d examples, so we use uniform convergence to solve it, while we can directly apply concentration inequalities to the last term because $h^{\*}$ is deterministic.
+The first term is not a sum of i.i.d examples, so we use uniform convergence to solve it, while we can directly apply concentration inequalities to the last term because $h^{*}​$ is deterministic.
 
 So, we can write the equation above as:
 
@@ -166,7 +166,7 @@ where $F$ is the loss class, e.g., zero-one loss. The proof is straight forward,
 
 ## Some Properties
 
-- $R_n(\{f\})=0$
+- $R_n(\{f\})=0​$
 - $R_n(F_1)\leq R_n(F_2)$ if $F_1 \subseteq F_2$
 - $R_n(F_1+F_2)=R_n(F_1)+R_n(F_2)$
 - $R_n(c\cdot F)=\|c\|R_n(F)$

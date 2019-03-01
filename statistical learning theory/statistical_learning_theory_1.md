@@ -13,7 +13,7 @@ The answer is not obvious for the training error and testing error are two separ
 
 ## Formal Setup
 
-In this post, we mainly talk about supervised learning setting. The problem is predicting an output $y\in Y$ given $x\in X$, for example, $X=R^d,Y=\\{-1,1\\}$.
+In this post, we mainly talk about supervised learning setting. The problem is predicting an output $y\in Y$ given $x\in X$, for example, $X=R^d,Y=\{-1,1\}​$.
 
 - Let $H$ be a set of hypotheses, each $h\in H$ maps $X$ to $Y$, for example, $H=\{ x\to sign(w^Tx), w\in R^d \}$.
 
